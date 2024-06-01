@@ -1,5 +1,38 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-unknwon-goconfig (1.0.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 10 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+
+  [ Drew Parsons ]
+  * New upstream release (first versioned release)
+  * add debian/watch (watch versioned release tags)
+  * Standards-Version: 4.6.1
+
+ -- Drew Parsons <dparsons@debian.org>  Wed, 09 Nov 2022 17:47:14 +0100
+
+golang-github-unknwon-goconfig (0.0~git20160828.0.5aa4f8c-3) unstable; urgency=medium
+
+  * Build-Depends on golang-any instead of golang-go
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 29 Nov 2016 22:32:03 +0100
+
+golang-github-unknwon-goconfig (0.0~git20160828.0.5aa4f8c-2) unstable; urgency=medium
+
+  * Use uppercase for XS-Go-Import-Path
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Wed, 09 Nov 2016 09:37:32 +0100
+
+golang-github-unknwon-goconfig (0.0~git20160828.0.5aa4f8c-1) unstable; urgency=medium
+
+  * Initial release (Closes: #842034)
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Tue, 25 Oct 2016 14:29:10 +0200

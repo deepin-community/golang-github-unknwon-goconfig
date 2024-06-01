@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+# Include test fixtures
+export DH_GOLANG_INSTALL_EXTRA := testdata
+
 %:
-	dh $@
+	dh $@ --buildsystem=golang --with=golang
